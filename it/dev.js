@@ -1,3 +1,3 @@
 module.exports = {
-    "Runtime" : "Runtime",
+    Runtime: 'Runtime',
 };
