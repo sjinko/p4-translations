@@ -1,5 +1,5 @@
 {
-  "name": "@p4/translations",
+  "name": "p4-translations",
   "version": "0.0.1",
   "description": "Translations used on onp4.com site",
   "repository": {
