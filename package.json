@@ -1,0 +1,45 @@
+{
+  "name": "@p4/translations",
+  "version": "0.0.1",
+  "description": "Translations used on onp4.com site",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onp4/p4-translations.git"
+  },
+  "scripts": {
+    "prettier": "prettier --write '**/*.js'"
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "husky": "0.14.3",
+    "prettier": "1.11.1",
+    "mol-conventional-changelog": "1.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/mol-conventional-changelog"
+    }
+  },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 4,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "bracketSpacing": false,
+    "jsxBracketSameLine": false
+  },
+  "keywords": [
+    "p4",
+    "translations",
+    "localization",
+    "internationalization",
+    "onp4.com"
+  ]
+}
