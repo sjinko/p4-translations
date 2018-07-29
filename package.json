@@ -7,7 +7,8 @@
     "url": "https://github.com/onp4/p4-translations.git"
   },
   "scripts": {
-    "prettier": "prettier --write '**/*.js'"
+    "prettier": "prettier --write '**/*.js'",
+    "prettier:test": "prettier --list-different '**/*.js'"
   },
   "lint-staged": {
     "**/*.js": [
@@ -17,13 +18,7 @@
   },
   "devDependencies": {
     "husky": "0.14.3",
-    "prettier": "1.11.1",
-    "mol-conventional-changelog": "1.2.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/mol-conventional-changelog"
-    }
+    "prettier": "1.11.1"
   },
   "prettier": {
     "printWidth": 120,
